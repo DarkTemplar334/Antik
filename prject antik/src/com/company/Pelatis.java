@@ -30,7 +30,7 @@ public class Pelatis {
     public float getPosoAgor() {
         return posoAgor;
     }
-    public void agoraProiontos(Proion agora,int paragontas)
+    public void agoraProiontos(Product agora, int paragontas)
     {
         posoAgor = posoAgor + agora.getTimPro() * paragontas;
     }
